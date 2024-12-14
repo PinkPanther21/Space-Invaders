@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Space Invaders - 90s Style - Comments</title>
+</head>
+<body>
+    <div id="loadingScreen">
+        <div class="loading-text">
+            <p>Loading...</p>
+            <p class="blink">Please Wait</p>
+        </div>
+    </div>
+    <button class="menu-toggle">☰</button>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h2>Retro Menu</h2>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="book.html">Space Invaders</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="comments.html">Comments</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Space Invaders - Comments</h1>
+
+        <section>
+            <h2>Leave a Comment</h2>
+            <form id="commentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button type="submit">Submit Comment</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Recent Comments</h2>
+            <div id="commentsList">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 1980s Space Invaders Tribute</p>
+    </footer>
+
+    <script src="/scripts/load.js"></script>
+    <script src="/scripts/comments.js"></script>
+    <script src="/scripts/toggle.js"></script>
+</body>
+</html>
