@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Space Invaders - 90s Style</title>
+        
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen">
+        <div class="loading-text">
+            <p>Loading...</p>
+            <p class="blink">Please Wait</p>
+        </div>
+    </div>
+    
+    <button class="menu-toggle">☰</button>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <h1>Retro Menu</h1>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="book.html">Space Invaders</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="comments.html">Comments</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <header>
+            <h1>Space Invaders</h1>
+            <marquee behavior="alternate" scrollamount="5">🚀 Welcome to the Ultimate Retro Arcade! 🚀</marquee>
+        </header>
+
+        <!-- Canvas for Info Display -->
+        <canvas id="infoCanvas" width="600" height="400"></canvas>
+
+        <!-- Space Invaders High Score Table -->
+        <table border="1" class="game-table">
+            <tr>
+                <th>High Score</th>
+                <th>Player</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>150,000</td>
+                <td>Player 1</td>
+                <td>2024-12-13</td>
+            </tr>
+            <tr>
+                <td>130,000</td>
+                <td>Player 2</td>
+                <td>2024-12-12</td>
+            </tr>
+            <tr>
+                <td>110,000</td>
+                <td>Player 3</td>
+                <td>2024-12-11</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="/scripts/load.js"></script>
+<script src="/scripts/script.js"></script>
+<script src="/scripts/toggle.js"></script>
+</html>
