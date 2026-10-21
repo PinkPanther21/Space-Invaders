@@ -14,12 +14,7 @@ A retro arcade space shooter that runs in the browser, built with HTML, CSS and 
 - Separate About, Info and Comments pages
 - Runs fully in the browser, no installation needed
 
-## Controls
 
-| Key | Action |
-|-----|--------|
-| [KEY] | Move left / right |
-| [KEY] | Shoot |
 
 ## Tech Used
 
