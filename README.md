@@ -38,5 +38,5 @@ A retro arcade space shooter that runs in the browser, built with HTML, CSS and 
 
 ## Author
 
-**[Your name]**
+**Atiqua**
 [LinkedIn](https://linkedin.com/in/atiquaabrar) · [GitHub](https://github.com/PinkPanther21)
